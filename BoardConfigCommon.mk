@@ -41,6 +41,9 @@ ifeq ($(HAVE_SELINUX),true)
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 endif
 
+# Linaro ToolChain
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
+
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Recovery
