@@ -22,7 +22,7 @@
 <resources>
 
 <!-- ==================== pie controls ==================== -->
-    <!-- Actual width/height of the trigger views placed on the UI -->
-    <dimen name="pie_trigger_thickness">8dp</dimen>
+    <!-- Actual width/height of the trigger views placed on the UI
+    <dimen name="pie_trigger_thickness">8dp</dimen-->
 
 </resources>
